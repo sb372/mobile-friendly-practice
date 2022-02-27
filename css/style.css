@@ -1,1 +1,20 @@
+body
+{
+    background-color: beige;
+}
 
+@media only screen and (max-width: 1024px) {
+    body {
+      background-color: rgb(28, 175, 224);
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: rgb(230, 173, 204);
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(175, 230, 173);
+    }
+  }
